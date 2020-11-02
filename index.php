@@ -1,13 +1,13 @@
 <?php
     echo "First DB Connection!";
 
-    $db = pg_connect("host=ec2-54-157-88-70.compute-1.amazonaws.com
-                dbname=dej4274bafrn9k
+    $db = pg_connect("host=ec2-3-214-46-194.compute-1.amazonaws.com
+                dbname=d6bq1npck5mqga
                 port=5432
-                user=nynbfmmylsqjgr
-                password=07c84b2bbcf1d3233c2e4d4c731c0e4f64a6ced68960463f97e366f22d8cc026");
+                user=jgcueqvfawmkuu
+                password=e1112f9db8e9077a1835d208a8ffedda8c89c220ae2b5960e76bc38addcf1ed1");
     pg_query("CREATE TABLE testing (id INTEGER)");
     echo "Script Executed!";
 	
-	header("location: ./ATNnew/html/Page.html");
+	
 ?>
