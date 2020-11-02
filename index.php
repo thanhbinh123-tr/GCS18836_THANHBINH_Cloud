@@ -9,5 +9,5 @@
     pg_query("CREATE TABLE testing (id INTEGER)");
     echo "Script Executed!";
 	
-	header("location: ./ATNnew/html/Page");
+	header("location: ./ATNnew/html/Page.html");
 ?>
